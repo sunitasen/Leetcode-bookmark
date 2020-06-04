@@ -1,8 +1,8 @@
 # Leetcode-bookmark
 
 ### Why was this made?
-Leetcode doesn't have the feature bookmark posts yet. 
-So I try saving the posts as bookmarks. It sometimes get time consuming to navigate through the folders to find the saved post.
+Leetcode doesn't have the feature to bookmark posts yet. 
+So I save all the posts as bookmarks. It sometimes get time consuming to navigate through the folders to find the saved post.
 
 ### what it does?
 It adds an icon for saving the post as a bookmark beside the title of the post. All the posts bookmarked through this icon gets stored in a specific folder. And we can easily access the bookmarks via extension popup.
