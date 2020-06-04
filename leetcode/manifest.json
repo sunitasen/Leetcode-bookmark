@@ -1,0 +1,24 @@
+{
+    "name": "Leetcode",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": [
+        "bookmarks"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://leetcode.com/discuss/*"],
+            "run_at": "document_idle",
+            "js": ["content.js"]
+        }
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action":{
+        "default_popup": "popup.html",
+        "default_title": "leetcode"
+    }
+   
+}
