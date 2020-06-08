@@ -8,7 +8,6 @@
     "content_scripts": [
         {
             "matches": ["https://leetcode.com/discuss/*"],
-            "run_at": "document_idle",
             "js": ["content.js"]
         }
     ],
