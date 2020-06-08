@@ -17,5 +17,4 @@ You can now see a new extension will be added. You will also see a new bookmarks
 If you can't see the star icon try refreshing the page.
 
 ### Disadvantages:
-1. The load time is hardcoded to 4sec. I couldn't figure out any other way. PRs/Suggestions are welcomed.
-2. We cannot remove a already marked bookmark from popup. ( To do so, you will have to refresh the extension)
+1. We cannot remove a already marked bookmark from popup. ( To do so, you will have to refresh the extension)
